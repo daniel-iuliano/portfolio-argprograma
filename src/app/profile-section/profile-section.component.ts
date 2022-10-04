@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfileSectionComponent implements OnInit {
 
+  nameProfile:string = "Daniel Iuliano"
+  locationProfile:string ="Buenos Aires, Argentina"
+  ocupationProfile:string ="Fullstack Developer"
+
   constructor() { }
 
   ngOnInit(): void {
