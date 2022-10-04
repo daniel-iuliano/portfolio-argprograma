@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainHeaderComponent implements OnInit {
 
+  headerTitle:string ="Daniel Iuliano"
+
   constructor() { }
 
   ngOnInit(): void {
